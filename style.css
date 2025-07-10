@@ -35,7 +35,7 @@ p{
     font-family: var(--secondary-font);
 }
 section{
-    padding: 100px 0;
+    padding: 70px 0;
 }
 .text-center{
     text-align: center;
@@ -139,4 +139,40 @@ section{
     font-size: 16px;
     font-family: var(--secondary-font);
     color: rgb(10 10 35 / 50%);
+}
+
+footer{
+    padding: 100px 0px;
+    background-color: #fff;
+}
+.footer-wrapper{
+    text-align: center;
+}
+.footer-wrapper .logo{
+    font-size: 100px;
+}
+.footer-wrapper ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 30px;
+    gap: 48px;
+}
+.footer-wrapper ul li{
+
+}
+.footer-wrapper ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #8987A1;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+}
+.footer-description{
+    color: #8987A1;
+    font-size: 16px;
+    max-width: 45%;
+    margin: 0 auto;
+    line-height: 1.6;
 }
