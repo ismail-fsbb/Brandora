@@ -73,7 +73,7 @@ section{
 }
 
 .hero-wrapper{
-    background-image: url("images/hero-bg.png");
+    background-image: url("./images/hero-bg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
