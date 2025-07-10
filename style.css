@@ -13,6 +13,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #F5F8FF;
+}
 h1,h2,h3,h4{
     font-family: var(--primary-font);
     text-transform: capitalize;
@@ -51,7 +54,7 @@ section{
     border: none;
     font-size: 16px;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 14px 30px;
     border-radius: 5px;
     cursor: pointer;
     text-transform: capitalize;
@@ -59,6 +62,7 @@ section{
 .header-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 40px 0px;
 }
 
@@ -74,6 +78,7 @@ section{
     color: var(--primary);
     font-family: var(--secondary-font);
     text-transform: uppercase;
+    margin-bottom: 0px;
 }
 .banner{
     padding: 150px 0;
@@ -119,4 +124,19 @@ section{
 .counter-title{
     
     font-size: 20px;
+}
+
+.cta-big{
+    padding: 70px 150px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+.cta-big img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.cta-big p{
+    font-size: 16px;
+    font-family: var(--secondary-font);
+    color: rgb(10 10 35 / 50%);
 }
