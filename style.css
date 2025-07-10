@@ -1,0 +1,122 @@
+:root {
+    --primary: #4E47FF;
+    --dark: #0A0A23;
+    --text: #f5f7ff;
+    --subtext: #B3B3B3;
+    --white: #ffffff;
+
+    --primary-font: "Raleway", sans-serif;
+    --secondary-font: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4{
+    font-family: var(--primary-font);
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+h1{
+    font-family: var(--primary-font);
+    font-size: 65px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+h2{
+    font-size: 42px;
+}
+p{
+    font-family: var(--secondary-font);
+}
+section{
+    padding: 100px 0;
+}
+.text-center{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.btn{
+    background-color: var(--primary);
+    font-family: var(--primary-font);
+    color: var(--white);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.hero-wrapper{
+    background-image: url("images/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    font-size: 34px;
+    font-weight: 900;
+    color: var(--primary);
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+}
+.banner{
+    padding: 150px 0;
+}
+.banner h1{
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+}
+.cta img{
+    border-radius: 48px;
+    height: 328px;
+    object-fit: cover;
+}
+.cta-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.margin-top{
+    margin-top: 20px;
+}
+.cta-wrapper p{
+    font-size: 24px;
+    font-family: var(--primary-font);
+    color: var(--subtext);
+}
+.counter-wrapper-main{
+    padding: 50px 150px;
+    border-radius: 24px;
+    background-color: #4e47ff1a;
+}
+.counter-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.count{
+    font-size: 80px;
+    color: var(--primary);
+    font-family: var(--secondary-font);
+}
+.counter-title{
+    
+    font-size: 20px;
+}
