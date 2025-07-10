@@ -35,7 +35,7 @@ p{
     font-family: var(--secondary-font);
 }
 section{
-    padding: 70px 0;
+    padding: 80px 0;
 }
 .text-center{
     text-align: center;
@@ -58,6 +58,12 @@ section{
     border-radius: 5px;
     cursor: pointer;
     text-transform: capitalize;
+    transition: .4s all ease-in-out;
+}
+.btn:hover{
+    background-color: #dda15e;
+    scale: 1.1;
+    transition: .4s all ease-in-out;
 }
 .header-container{
     display: flex;
@@ -118,13 +124,55 @@ section{
 }
 .count{
     font-size: 80px;
+    margin-bottom: 0px;
     color: var(--primary);
     font-family: var(--secondary-font);
 }
 .counter-title{
-    
+    color: rgb(0 0 0 / 50%);
     font-size: 20px;
 }
+
+.testimonial-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.stars{
+    margin-bottom: 20px;
+}
+.testimonial-card{
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #fff;
+}
+.testimonial-title{
+    font-size: 24px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.testimonial-description{
+    color: #1E1E1E;
+}
+.client-name{
+    font-weight: 600; 
+    color: #757575;
+    margin-bottom: 2px;
+}
+.client-description{
+    color: #B3B3B3;
+    font-family: var(--secondary-font);
+}
+.client-wrapper{
+    display: flex; 
+    align-items: center; 
+    margin-top: 1rem;
+    gap: 10px;
+}
+
 
 .cta-big{
     padding: 70px 150px;
@@ -139,6 +187,53 @@ section{
     font-size: 16px;
     font-family: var(--secondary-font);
     color: rgb(10 10 35 / 50%);
+}
+
+
+.contact{
+    display: flex;
+}
+.contact-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.contact-right{
+    width: 50%;
+}
+.contact-title{
+    font-size: 97px;
+}
+.contact form label{
+    display: block;
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: medium;
+}
+.form-control{
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 22px 32px 18px 32px;
+    font-family: var(--secondary-font);
+}
+.form-control:focus{
+    outline: none;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: rgb(0 0 0 / 50%);
+}
+form .btn{
+    width: 100%;
 }
 
 footer{
@@ -176,3 +271,4 @@ footer{
     margin: 0 auto;
     line-height: 1.6;
 }
+
